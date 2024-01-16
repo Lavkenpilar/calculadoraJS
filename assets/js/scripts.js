@@ -12,4 +12,9 @@ sumar.addEventListener ("click", function(){
     console.log (typeof parseInt (cantidad.innerHTML))
     const total_cantidad= parseInt (cantidad.innerHTML)+1
     cantidad.innerHTML = total_cantidad 
+    total.innerHTML = 400000 * parseInt (cantidad.innerHTML)
+})
+restar.addEventListener ("click", function(){
+    cantidad.innerHTML = parseInt (cantidad.innerHTML) -1
+    total.innerHTML = 400000 * parseInt(cantidad.innerHTML)
 })
