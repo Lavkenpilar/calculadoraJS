@@ -1,0 +1,8 @@
+const total = document.querySelector (".total-section")
+const cantidad = document.querySelector (".cantidad")
+const sumar = document.querySelector(".sumar")
+const restar = document.querySelector(".restar")
+console.log (total)
+console.log (cantidad)
+console.log (sumar)
+console.log (restar)
