@@ -6,3 +6,10 @@ console.log (total)
 console.log (cantidad)
 console.log (sumar)
 console.log (restar)
+
+sumar.addEventListener ("click", function(){
+    console.log (typeof cantidad.innerHTML)
+    console.log (typeof parseInt (cantidad.innerHTML))
+    const total_cantidad= parseInt (cantidad.innerHTML)+1
+    cantidad.innerHTML = total_cantidad 
+})
